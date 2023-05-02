@@ -4,7 +4,7 @@
 #hero {
     background: linear-gradient(300deg, #00bfff, #F6F1F1, #19A7CE);
     background-size: 180% 180%;
-    height: 100vh;
+    
     animation: gradient-animation 18s ease infinite;
 }
 #Resume{
