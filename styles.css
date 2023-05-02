@@ -1,0 +1,111 @@
+/*.nav-pills > div{
+    padding: 0 2rem 0 ;
+}*/
+#hero {
+    background: linear-gradient(300deg, #00bfff, #F6F1F1, #19A7CE);
+    background-size: 180% 180%;
+    height: 100vh;
+    animation: gradient-animation 18s ease infinite;
+}
+#Resume{
+    background-color: #F6F1F1;
+    display: flex;
+    flex-direction:column ;
+}
+#interest{
+    background-color: #F6F1F1;
+}
+#projects{
+    margin-bottom: 3rem;
+}
+#contact{
+    background: linear-gradient(300deg, #00bfff, #F6F1F1, #19A7CE);
+    background-size: 180% 180%;
+    height: 15vh;
+    animation: gradient-animation 18s ease infinite;
+}
+.block > h3{
+    color: #AFD3E2;
+}
+.res-head{
+    color: #AFD3E2;
+}
+.head{
+    font-family: sacramento ;
+    color: white;
+    font-size: 30px;
+}
+.para{
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.my-pic{
+    border-radius: 50%;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+}
+.table{
+    display: grid;
+    border: 10px;
+    grid-template-columns: minmax(100px,250px)  minmax(100px,250px);
+    grid-template-rows: minmax(50px,75px) ;
+    grid-auto-rows: minmax(50px,75px);
+    gap: 10px;
+    padding-left: 4rem;
+}
+.pro{
+    color: #146C94;
+    text-align: center;
+    font-family: serif;
+    font-size: 3rem;
+    padding: 1rem;
+}
+.p-links{
+    display: flex;
+    justify-content: space-around;
+}
+.p-links > div >a{
+    font-family: sans-serif;
+    color: #B7B7B7;
+    outline: none;
+    text-decoration: none;
+}
+.p-links > div >a:hover{
+    color: #146C94;
+}
+.block{
+    width: 58%;
+    position: relative;
+    margin: 100px auto 100px;
+}
+.left{
+    float: left;
+    padding: 4rem;
+}
+.right{
+    float:right;
+    text-align: right;
+}
+.int-img{
+    padding:1rem;
+}
+.int-div{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.pro2{
+    color: #146C94;
+    text-align: center;
+    font-family: serif;
+    font-size: 3rem;
+    padding: 1rem;
+
+}
+.footer{
+    position: relative;
+    bottom: 100px;
+}
